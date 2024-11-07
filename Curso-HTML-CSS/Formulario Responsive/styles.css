@@ -44,7 +44,7 @@ body {
 }
 
 .form textarea {
-    min-height: 120px;
+    min-height: 140px;
     resize: none;
 }
 
@@ -89,10 +89,6 @@ body {
     background-color: #072;
     border-bottom: none;
     padding: 14px;
-}
-
-.form input[type="submit"]:focus {
-    background-color: #095;
 }
 
 .form input[type="submit"]:focus {
