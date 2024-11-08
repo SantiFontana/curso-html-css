@@ -1,0 +1,19 @@
+body {
+    background: radial-gradient(circle,#fff,#bbb);
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%
+}
+
+.gallery-container {
+    display: grid;
+    max-width: 1200px;
+    margin: 40px auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 50px;
+    grid-auto-rows: 200px;
+}
